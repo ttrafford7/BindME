@@ -3,7 +3,7 @@
   "id": "bindme",
   "version": "${version}",
 
-  "name": "BindMe",
+  "name": "BindME",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "ttrafford"
