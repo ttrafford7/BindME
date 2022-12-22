@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "bindme",
+  "version": "${version}",
+
+  "name": "BindMe",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "ttrafford"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ttrafford.bindme.BindMe"
+    ],
+    "client": [
+      "net.ttrafford.bindme.BindMeClient"
+    ]
+  },
+  "mixins": [
+    "bindme.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
